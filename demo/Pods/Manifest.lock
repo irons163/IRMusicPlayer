@@ -1,0 +1,16 @@
+PODS:
+  - IRMusicPlayer (0.1.0)
+
+DEPENDENCIES:
+  - IRMusicPlayer (from `../IRMusicPlayer/IRMusicPlayer_dev.podspec`)
+
+EXTERNAL SOURCES:
+  IRMusicPlayer:
+    :path: "../IRMusicPlayer/IRMusicPlayer_dev.podspec"
+
+SPEC CHECKSUMS:
+  IRMusicPlayer: 5faf243a97a2d155e1a20e27a9f749fa6244cf0a
+
+PODFILE CHECKSUM: 0dcf532e2419168ea4e88d4f19f63f2cef2aea7a
+
+COCOAPODS: 1.8.0.beta.2

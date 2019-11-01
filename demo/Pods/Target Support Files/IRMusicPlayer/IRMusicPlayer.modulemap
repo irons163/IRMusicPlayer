@@ -1,0 +1,6 @@
+framework module IRMusicPlayer {
+  umbrella header "IRMusicPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

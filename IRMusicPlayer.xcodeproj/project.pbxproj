@@ -7,10 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A35DB40236C20D300C6C86B /* MusicPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A35DB3D236C20D200C6C86B /* MusicPlayerViewController.h */; };
+		8A35DB41236C20D300C6C86B /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A35DB3E236C20D300C6C86B /* MusicPlayerViewController.m */; };
+		8A35DB42236C20D300C6C86B /* MusicPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A35DB3F236C20D300C6C86B /* MusicPlayerViewController.xib */; };
+		8A35DB45236C211C00C6C86B /* UIColor+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A35DB43236C211C00C6C86B /* UIColor+Helper.h */; };
+		8A35DB46236C211C00C6C86B /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A35DB44236C211C00C6C86B /* UIColor+Helper.m */; };
+		8A35DB4D236C25BC00C6C86B /* StatusClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A35DB4B236C25BC00C6C86B /* StatusClass.m */; };
+		8A35DB4E236C25BC00C6C86B /* KeysDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A35DB4C236C25BC00C6C86B /* KeysDefine.m */; };
+		8A35DB50236C262F00C6C86B /* KeysDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A35DB48236C25BB00C6C86B /* KeysDefine.h */; };
+		8A35DB51236C263200C6C86B /* StatusClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A35DB4A236C25BB00C6C86B /* StatusClass.h */; };
+		8A35DB55236C2E4400C6C86B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A35DB53236C2DF300C6C86B /* Assets.xcassets */; };
+		8A35DB5B236C354F00C6C86B /* UIImage+Bundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A35DB59236C354F00C6C86B /* UIImage+Bundle.h */; };
+		8A35DB5C236C354F00C6C86B /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A35DB5A236C354F00C6C86B /* UIImage+Bundle.m */; };
+		8A35DB5F236C368C00C6C86B /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A35DB5D236C368C00C6C86B /* Utilities.h */; };
+		8A35DB60236C368C00C6C86B /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A35DB5E236C368C00C6C86B /* Utilities.m */; };
 		8A9FFCFE2344ABEB0090584B /* IRMusicPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9FFCFC2344ABEB0090584B /* IRMusicPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A35DB3D236C20D200C6C86B /* MusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		8A35DB3E236C20D300C6C86B /* MusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		8A35DB3F236C20D300C6C86B /* MusicPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicPlayerViewController.xib; sourceTree = "<group>"; };
+		8A35DB43236C211C00C6C86B /* UIColor+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helper.h"; sourceTree = "<group>"; };
+		8A35DB44236C211C00C6C86B /* UIColor+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helper.m"; sourceTree = "<group>"; };
+		8A35DB48236C25BB00C6C86B /* KeysDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeysDefine.h; sourceTree = "<group>"; };
+		8A35DB4A236C25BB00C6C86B /* StatusClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatusClass.h; sourceTree = "<group>"; };
+		8A35DB4B236C25BC00C6C86B /* StatusClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusClass.m; sourceTree = "<group>"; };
+		8A35DB4C236C25BC00C6C86B /* KeysDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeysDefine.m; sourceTree = "<group>"; };
+		8A35DB53236C2DF300C6C86B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A35DB59236C354F00C6C86B /* UIImage+Bundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bundle.h"; sourceTree = "<group>"; };
+		8A35DB5A236C354F00C6C86B /* UIImage+Bundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bundle.m"; sourceTree = "<group>"; };
+		8A35DB5D236C368C00C6C86B /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		8A35DB5E236C368C00C6C86B /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		8A9FFCF92344ABEB0090584B /* IRMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IRMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9FFCFC2344ABEB0090584B /* IRMusicPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRMusicPlayer.h; sourceTree = "<group>"; };
 		8A9FFCFD2344ABEB0090584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,6 +55,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A35DB3A236C20AF00C6C86B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8A35DB3B236C20BD00C6C86B /* UI */,
+				8A35DB3C236C20C200C6C86B /* Utility */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		8A35DB3B236C20BD00C6C86B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8A35DB3D236C20D200C6C86B /* MusicPlayerViewController.h */,
+				8A35DB3E236C20D300C6C86B /* MusicPlayerViewController.m */,
+				8A35DB3F236C20D300C6C86B /* MusicPlayerViewController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8A35DB3C236C20C200C6C86B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8A35DB43236C211C00C6C86B /* UIColor+Helper.h */,
+				8A35DB44236C211C00C6C86B /* UIColor+Helper.m */,
+				8A35DB59236C354F00C6C86B /* UIImage+Bundle.h */,
+				8A35DB5A236C354F00C6C86B /* UIImage+Bundle.m */,
+				8A35DB48236C25BB00C6C86B /* KeysDefine.h */,
+				8A35DB4C236C25BC00C6C86B /* KeysDefine.m */,
+				8A35DB4A236C25BB00C6C86B /* StatusClass.h */,
+				8A35DB4B236C25BC00C6C86B /* StatusClass.m */,
+				8A35DB5D236C368C00C6C86B /* Utilities.h */,
+				8A35DB5E236C368C00C6C86B /* Utilities.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		8A9FFCEF2344ABEB0090584B = {
 			isa = PBXGroup;
 			children = (
@@ -46,6 +110,8 @@
 		8A9FFCFB2344ABEB0090584B /* IRMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				8A35DB53236C2DF300C6C86B /* Assets.xcassets */,
+				8A35DB3A236C20AF00C6C86B /* Class */,
 				8A9FFCFC2344ABEB0090584B /* IRMusicPlayer.h */,
 				8A9FFCFD2344ABEB0090584B /* Info.plist */,
 			);
@@ -59,6 +125,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A35DB40236C20D300C6C86B /* MusicPlayerViewController.h in Headers */,
+				8A35DB5F236C368C00C6C86B /* Utilities.h in Headers */,
+				8A35DB50236C262F00C6C86B /* KeysDefine.h in Headers */,
+				8A35DB45236C211C00C6C86B /* UIColor+Helper.h in Headers */,
+				8A35DB51236C263200C6C86B /* StatusClass.h in Headers */,
+				8A35DB5B236C354F00C6C86B /* UIImage+Bundle.h in Headers */,
 				8A9FFCFE2344ABEB0090584B /* IRMusicPlayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +192,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A35DB55236C2E4400C6C86B /* Assets.xcassets in Resources */,
+				8A35DB42236C20D300C6C86B /* MusicPlayerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +204,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A35DB60236C368C00C6C86B /* Utilities.m in Sources */,
+				8A35DB5C236C354F00C6C86B /* UIImage+Bundle.m in Sources */,
+				8A35DB41236C20D300C6C86B /* MusicPlayerViewController.m in Sources */,
+				8A35DB46236C211C00C6C86B /* UIColor+Helper.m in Sources */,
+				8A35DB4E236C25BC00C6C86B /* KeysDefine.m in Sources */,
+				8A35DB4D236C25BC00C6C86B /* StatusClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
