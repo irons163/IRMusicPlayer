@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A35DB40236C20D300C6C86B /* MusicPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A35DB3D236C20D200C6C86B /* MusicPlayerViewController.h */; };
+		8A35DB40236C20D300C6C86B /* MusicPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A35DB3D236C20D200C6C86B /* MusicPlayerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A35DB41236C20D300C6C86B /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A35DB3E236C20D300C6C86B /* MusicPlayerViewController.m */; };
 		8A35DB42236C20D300C6C86B /* MusicPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A35DB3F236C20D300C6C86B /* MusicPlayerViewController.xib */; };
 		8A35DB45236C211C00C6C86B /* UIColor+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A35DB43236C211C00C6C86B /* UIColor+Helper.h */; };

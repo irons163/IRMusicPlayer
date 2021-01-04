@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AF1F95125A3187900C15752 /* Pods_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC442FBD2956291FA4851DB /* Pods_demo.framework */; };
+		4AF1F95225A3187900C15752 /* Pods_demo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC442FBD2956291FA4851DB /* Pods_demo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8A35DB35236BFD1600C6C86B /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A35DB32236BFD1400C6C86B /* 1.mp3 */; };
 		8A390ECB237505B100B2B168 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A390EC8237505B000B2B168 /* 3.mp3 */; };
 		8A390ECC237505B100B2B168 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A390ECA237505B100B2B168 /* 2.mp3 */; };
@@ -15,7 +17,6 @@
 		8A9FFD182344AC5D0090584B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9FFD162344AC5D0090584B /* Main.storyboard */; };
 		8A9FFD1D2344AC620090584B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9FFD1B2344AC620090584B /* LaunchScreen.storyboard */; };
 		8A9FFD202344AC620090584B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FFD1F2344AC620090584B /* main.m */; };
-		FCE611B82B31A5403FE6BE93 /* Pods_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC442FBD2956291FA4851DB /* Pods_demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +29,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4AF1F95325A3187900C15752 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4AF1F95225A3187900C15752 /* Pods_demo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1CC442FBD2956291FA4851DB /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B4CBC97530C9EEE83EAC18 /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.debug.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		4A51E1E225A3110500664B49 /* IRMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IRMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A51E1E625A3111A00664B49 /* IRMusicPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IRMusicPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA377962EF479F5852CA542 /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.release.xcconfig"; path = "Target Support Files/Pods-demo/Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
 		8A35DB32236BFD1400C6C86B /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
 		8A390EC8237505B000B2B168 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
@@ -52,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE611B82B31A5403FE6BE93 /* Pods_demo.framework in Frameworks */,
+				4AF1F95125A3187900C15752 /* Pods_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +79,8 @@
 		07AB67EAEEA2DF8ED85CBEA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A51E1E625A3111A00664B49 /* IRMusicPlayer.framework */,
+				4A51E1E225A3110500664B49 /* IRMusicPlayer.framework */,
 				1CC442FBD2956291FA4851DB /* Pods_demo.framework */,
 			);
 			name = Frameworks;
@@ -132,7 +151,8 @@
 				8A9FFD092344AC5D0090584B /* Sources */,
 				8A9FFD0A2344AC5D0090584B /* Frameworks */,
 				8A9FFD0B2344AC5D0090584B /* Resources */,
-				7B3A62507C2F3A6F60AC6C0D /* [CP] Embed Pods Frameworks */,
+				4AF1F95325A3187900C15752 /* Embed Frameworks */,
+				416D5F502CDEDF6D4282FEC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,7 +227,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7B3A62507C2F3A6F60AC6C0D /* [CP] Embed Pods Frameworks */ = {
+		416D5F502CDEDF6D4282FEC0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,7 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F7AP32ZTM5;
+				DEVELOPMENT_TEAM = T6VV6T753H;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -417,7 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F7AP32ZTM5;
+				DEVELOPMENT_TEAM = T6VV6T753H;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
