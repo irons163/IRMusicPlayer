@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "IRMusicPlayer"
-  spec.version      = "0.1.0"
+  spec.version      = "0.2.0"
   spec.summary      = "A powerful music player of iOS."
   spec.description  = "A powerful music player of iOS."
   spec.homepage     = "https://github.com/irons163/IRMusicPlayer.git"
