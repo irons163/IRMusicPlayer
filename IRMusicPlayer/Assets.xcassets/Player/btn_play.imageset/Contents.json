@@ -5,8 +5,8 @@
       "scale" : "1x"
     },
     {
+      "filename" : "016-play.png",
       "idiom" : "iphone",
-      "filename" : "btn_play.png",
       "scale" : "2x"
     },
     {
@@ -15,7 +15,7 @@
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

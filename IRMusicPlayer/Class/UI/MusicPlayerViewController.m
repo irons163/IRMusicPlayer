@@ -58,9 +58,11 @@
     
     //button Status
     self.randomBtn.selected = [[NSUserDefaults standardUserDefaults] boolForKey:PLAYER_RANDOM_BUTTON_STATUS_KEY];
+    self.randomBtn.alpha = self.randomBtn.selected ? 1.0f : 0.3f;
     if ([[NSUserDefaults standardUserDefaults] integerForKey:@"playerCircleBtnStatus"] == 0) {
         self.circleBtn.tag = 0;
-        [self.circleBtn setImage:[UIImage imageNamedForCurrentBundle:@"btn_repeat_0"] forState:UIControlStateNormal];
+        [self.circleBtn setImage:[UIImage imageNamedForCurrentBundle:@"btn_repeat_all"] forState:UIControlStateNormal];
+        self.circleBtn.alpha = 0.3f;
     }else if ([[NSUserDefaults standardUserDefaults] integerForKey:PLAYER_CIRCLE_BUTTON_STATUS_KEY] == 1) {
         self.circleBtn.tag = 1;
         [self.circleBtn setImage:[UIImage imageNamedForCurrentBundle:@"btn_repeat_all"] forState:UIControlStateNormal];
@@ -449,6 +451,7 @@
 - (IBAction)doRandom:(id)sender {
     randomCount = 0;
     self.randomBtn.selected = !self.randomBtn.selected;
+    self.randomBtn.alpha = self.randomBtn.selected ? 1.0f : 0.3f;
     
     NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
     [userDefault setObject:[NSString stringWithFormat:@"%d", self.randomBtn.isSelected] forKey:PLAYER_RANDOM_BUTTON_STATUS_KEY];
@@ -459,12 +462,14 @@
     if (self.circleBtn.tag == 0) {
         self.circleBtn.tag = 1;
         [self.circleBtn setImage:[UIImage imageNamedForCurrentBundle:@"btn_repeat_all"] forState:UIControlStateNormal];
+        self.circleBtn.alpha = 1.0f;
     }else if (self.circleBtn.tag == 1) {
         self.circleBtn.tag = 2;
         [self.circleBtn setImage:[UIImage imageNamedForCurrentBundle:@"btn_repeat_1"] forState:UIControlStateNormal];
     }else if (self.circleBtn.tag == 2) {
         self.circleBtn.tag = 0;
-        [self.circleBtn setImage:[UIImage imageNamedForCurrentBundle:@"btn_repeat_0"] forState:UIControlStateNormal];
+        [self.circleBtn setImage:[UIImage imageNamedForCurrentBundle:@"btn_repeat_all"] forState:UIControlStateNormal];
+        self.circleBtn.alpha = 0.3f;
     }
     
     NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];

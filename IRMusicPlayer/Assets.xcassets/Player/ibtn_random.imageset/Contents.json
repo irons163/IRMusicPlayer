@@ -5,8 +5,8 @@
       "scale" : "1x"
     },
     {
+      "filename" : "025-shuffle.png",
       "idiom" : "iphone",
-      "filename" : "ibtn_random.png",
       "scale" : "2x"
     },
     {
@@ -15,7 +15,7 @@
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }
